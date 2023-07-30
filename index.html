@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta charset="UTF-8">
+<title>我爱阅读</title>
+<link scr="../base.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="open-tips" style="text-align: center;">
+        <div style="margin-top:5em;">
+            <p style="color: #fff;font-size: 1.3em;">请点击右上角然后点击在默认浏览器中打开</p>
+        </div>
+    </div>
+    <center>
+        <p style="color: #fff;font-size: 2.6em;">我爱阅读</p>
+        <div class="download">
+            <a class="android" href="./gnxt.apk" style="text-align:center;color:#2a5caa;line-height: 42px;font-size:1.1em">安卓下载</a>
+            <a class="ios" href="https://testflight.apple.com/join/LW0zyorT" style="text-align:center;color:#2a5caa;line-height: 42px;font-size:1.1em">苹果下载</a>
+            <a class="chrome" href="https://jsq.gnxt.vip/gnxt.zip" style="text-align:center;color:#2a5caa;line-height: 42px;font-size:1.1em">浏览器下载</a>
+        </div>
+        <div class="bottom-img">
+            <!--<img class="phone" src="img/download-img-phone.png">-->
+            <!--<img class="bg" src="img/download-img.png">-->
+        </div>
+    </center>
+    
+    <script type="text/javascript">
+    
+    checkos();
+    
+    function checkos(){
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+        if(isAndroid){
+            IOSBtn.style.display = "none";
+            foxBtn.style.display = "none";
+            chromeBtn.style.display = "none";
+            return;
+        }else if(isiOS){
+            androidBtn.style.display = "none";
+            foxBtn.style.display = "none";
+            chromeBtn.style.display = "none";
+            return;
+        }else{
+            return;
+        }
+    }
+    
+    function isWeChat(){
+        var ua = window.navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    </script>
+    
+    </body>
+</html>

@@ -1,0 +1,177 @@
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right bottom, #2a5caa, #444693);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+iframe,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+button,
+input,
+textarea,
+th,
+td,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+html {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+* {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+head {
+  display: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right bottom, #2a5caa, #444693);
+}
+body {
+  color: #85888e;
+}
+body,
+th,
+td,
+button,
+input,
+select,
+textarea {
+  font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue",
+    Helvetica, tahoma, arial, Verdana, sans-serif, "WenQuanYi Micro Hei",
+    "\5B8B\4F53";
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+iframe,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+button,
+input,
+textarea,
+th,
+td,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.open-tips {
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  display: none;
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+div {
+  display: block;
+}
+
+.download a {
+  display: block;
+  width: 171px;
+  height: 43px;
+  background: #fff no-repeat center;
+  background-size: 123px auto;
+  border-radius: 999px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a,
+area {
+  outline: none;
+}
